@@ -5,20 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clone do youtube</title>
+    <!--LINK DO CSS EXTERNO-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--LINK DA IMANGEM NA ABA DO NAVEGADOR FAVICON-->
+    <link rel="shortcut icon" href="./assets/favicon.ico.png" type="">
+    <!-- FONTE GOOGLE- ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!--CABEÇALHO DA PÁGINA-->
-    <header></header>
+    <header>
+        <div class="logo">
+            <img src="./assets/youtube.png" alt="imagem com logo do youtube">
+        </div>
+
+    <!--BUSCAR/PESQUISAR-->
+    <div class="search">
+        <input type="search" placeholder="pesquisar">
+    </div>
+<!--FAZER LOGIN-->
+    <div class="sign-in">
+        <a href="#" class="buttom">Fazer login</a>
+    </div>
+    </header>
 
     <!--CAIXA PRINCIPAL-->
     <main>
         <!--VIDEO DA PÁGINA-->
-        <section class="video-player">video player</section>
+        <section class="video-player">
+            <iframe src="https://www.youtube.com/watch?v=uAOR6ib95kQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
         <!--TITULO DO VIDEO/DESCRICAO-->
-        <section class="video-info">video info</section>
+        <section class="video-info">
+            <h1>DESCRIÇÃO FODA</h1>
+            <p class="views">2.000.000 visualizações</p>
+        </section>
         <!--BOTOES LIKE E DESLIKE ETC-->
         <section class="actions">actions</section>
         <!--INFO DO CANAL-->
